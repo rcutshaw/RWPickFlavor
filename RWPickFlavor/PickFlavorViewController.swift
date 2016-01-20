@@ -8,9 +8,11 @@
 
 import UIKit
 import Alamofire
+import BetterBaseClasses
+
 import MBProgressHUD
 
-public class PickFlavorViewController: UIViewController, UICollectionViewDelegate {
+public class PickFlavorViewController: BaseViewController, UICollectionViewDelegate {
   
   // MARK: Instance Variables
   
